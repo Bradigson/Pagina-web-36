@@ -1,0 +1,57 @@
+header{
+    position:fixed;
+    width:100%;
+    z-index:100;
+
+
+}
+
+nav{
+   
+    padding:0px 10px;
+    color:#fff;
+   
+}
+#boton{
+    box-shadow:unset;
+    border:none;
+    outline:none;
+
+}
+#menu{
+    background:rgba(128, 128, 128,.3);
+    backdrop-filter:blur(15px);
+    border-radius:10px;
+}
+#menu ul li >a {
+    color:#fff;
+}
+#menu ul li > a:hover{
+    color:rgba(88, 219, 88);
+}
+.bx-menu{
+    color:#fff;
+    font-size:40px;
+}
+.sesion1{
+    background:url(../imgs/terricks-noah-n9R0MN3XGvY-unsplash.jpg);
+    background-position:center;
+    background-size:cover;
+    height:652px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.sesion1__content{
+    position:absolute;
+    padding:10px 20px;
+    color:#fff;
+    width:90%;
+    border-radius:20px;
+    background:rgba(88, 219, 88,.5);
+    backdrop-filter:blur(15px);
+    text-shadow:1px 1px 1px rgba(0,0,0,.4);
+}
+.sesion1__content > a{
+    width:160px;
+}
